@@ -9,30 +9,26 @@ html body {
   background: linear-gradient(to right, #0062E6, #33AEFF);
 } */
 
-
 .body-bg {
-    background-image:
-    url('../images/escheresque_@2X.png');
+  background-image: url('../images/escheresque_@2X.png');
 }
 
 .body-bg1 {
-background: radial-gradient(
-      rgba(221, 94, 137, 0.1),
-      rgba(247, 187, 151, 1))
+  background: radial-gradient(rgba(221, 94, 137, 0.1), rgba(247, 187, 151, 1));
 }
 
-.smoked-meats{
-animation: spin 150s linear infinite;
+.smoked-meats {
+  animation: spin 150s linear infinite;
 }
 
 .smoked-meats img {
   border-radius: 12%;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   animation: spin 150s linear infinite;
 }
 
 .smoked-meats img:hover {
-    transform: scale(2);
+  transform: scale(2);
 }
 
 @keyframes spin {
