@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Porkfolio - Contact</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/calc.css">
+    <script
+      src="https://kit.fontawesome.com/06d95323bb.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/calc.js"></script>
+  </head>
+  <body class="d-flex flex-column body-bg">
+    <!-- NAVBAR -->
+    <div class="container-fluid">
+      <nav
+        class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark d-flex justify-content-between"
+      >
+        <div class="align-bottom">
+          <img src="./assets/images/favicon-32x32.png" class="align-top pr-1" alt=""><a class="navbar-brand align-bottom" href="index.html">Babe</a>
+        </div>
+        <div>
+        <div>
+          <button
+            class="navbar-toggler d-lg-none"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          ><i
+        class="fas fa-bars fa-1x"></i></span></button>
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >Contact <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="porkfolio.html">Porkfolio</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container-fluid">
+      <footer
+        id="sticky-footer"
+        class="fixed-bottom py-4 bg-dark text-white-50"
+      >
+        <div class="container text-center">
+          <i class="fab fa-github" aria-hidden="true"
+            ><a
+              href="https://github.com/travisreed-dfw"
+              class="font-weight-light mr-4"
+            >
+              Github
+            </a></i
+          >
+          
+          <i class="fas fa-code" aria-hidden="true">
+            <a href="https://github.com/travisreed-dfw/bootstrapPorkfolio" class="font-weight-light mr-4"> Project</a></i>
+          
+          <i class="fas fa-bacon"
+            ><a href="https://baconipsum.com/" class="font-weight-light">
+              Bacon</a
+            ></i
+          >
+          
+        </div>
+      </footer>
+    </div>
+
+    <!-- BODY -->
+    <div class="container mt-5">
+      <div class="mt-5 d-flex justify-content-center">
+        <div class="jumbotron jumbo-max-width">
+          <h1 class="display-3"><i class="fas fa-calculator"></i> Calculator</h1>
+          <p class="lead">Let's crunch two positive integers</p>
+          <hr class="my-2" />
+          <div class="form-group">
+              <div class="container">
+                <div class="row">
+                <div class="col-xs-12"></div>
+                </div>
+                <div class="row">
+                  <div class="col col-calc d-flex justify-content-center">
+<h1 id="display-math">__ + __ = __ or whatever</h1>
+                  </div>
+                </div>
+<div class="row">
+<div class="col col-calc"><button id="btn-clear" type="button" class="btn btn-danger btn-lg">AC</button></div>
+<div class="col col-calc"><button id="btn-positive-negative" type="button" class="btn btn-secondary btn-lg" disabled>+/-</button></div>
+<div class="col col-calc"><button id="btn-percent" type="button" class="btn btn-secondary btn-lg" disabled>%</button></div>
+<div class="col col-calc"><button id="btn-division" type="button" class="btn btn-warning btn-lg">/</button></div>
+</div>
+<div class="row">
+<div class="col col-calc"><button id="btn-7" type="button" class="btn btn-primary btn-lg">7</button></div>
+<div class="col col-calc"><button id="btn-8" type="button" class="btn btn-primary btn-lg">8</button></div>
+<div class="col col-calc"><button id="btn-9" type="button" class="btn btn-primary btn-lg">9</button></div>
+<div class="col col-calc"><button id="btn-multiplication" type="button" class="btn btn-warning btn-lg">X</button></div>
+</div>
+<div class="row">
+<div class="col col-calc"><button id="btn-4" type="button" class="btn btn-primary btn-lg">4</button></div>
+<div class="col col-calc"><button id="btn-5" type="button" class="btn btn-primary btn-lg">5</button></div>
+<div class="col col-calc"><button id="btn-6" type="button" class="btn btn-primary btn-lg">6</button></div>
+<div class="col col-calc"><button id="btn-subtraction" type="button" class="btn btn-warning btn-lg">-</button></div>
+</div>
+<div class="row">
+<div class="col col-calc"><button id="btn-1" type="button" class="btn btn-primary btn-lg">1</button></div>
+<div class="col col-calc"><button id="btn-2" type="button" class="btn btn-primary btn-lg">2</button></div>
+<div class="col col-calc"><button id="btn-3" type="button" class="btn btn-primary btn-lg">3</button></div>
+<div class="col col-calc"><button id="btn-addition" type="button" class="btn btn-warning btn-lg">+</button></div>
+</div>
+<div class="row">
+<div class="col-6 col-calc"><button id="btn-0" type="button" class="btn btn-primary btn-lg">0</button></div>
+<div class="col col-calc"><button id="btn-decimal" type="button" class="btn btn-secondary btn-lg" disabled>.</button></div>
+<div class="col col-calc"><button id="btn-equals" type="button" class="btn btn-warning btn-lg">=</button></div>
+</div>
+              </div>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="footer-margin">
+  <footer class="card-footer bg-light footer-font-style text-muted footer-position"><a href="https://github.com/josephcardillo/shipping-app">Github</a>
+  </footer>
+</div> -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script>
+// Display
+// document.getElementById('display-math');
+// Top Row
+document.getElementById('btn-clear').addEventListener('click', btnClear);
+// getElementById('btn-positive-negative');
+// document.getElementById('btn-percent').addEventListener('click', btnPercent);
+document.getElementById('btn-division').addEventListener('click', btnDivision);
+// Second Row
+document.getElementById('btn-7').addEventListener('click', btn7);
+document.getElementById('btn-8').addEventListener('click', btn8);
+document.getElementById('btn-9').addEventListener('click', btn9);
+document.getElementById('btn-multiplication').addEventListener('click', btnMultiplication);
+// Third Row
+document.getElementById('btn-4').addEventListener('click', btn4);
+document.getElementById('btn-5').addEventListener('click', btn5);
+document.getElementById('btn-6').addEventListener('click', btn6);
+document.getElementById('btn-subtraction').addEventListener('click', btnSubtraction);
+// Fourth Row
+document.getElementById('btn-1').addEventListener('click', btn1);
+document.getElementById('btn-2').addEventListener('click', btn2);
+document.getElementById('btn-3').addEventListener('click', btn3);
+document.getElementById('btn-addition').addEventListener('click', btnAddition);
+// Bottom Row
+document.getElementById('btn-0').addEventListener('click', btn0);
+// document.getElementById('btn-decimal').addEventListener('click', btnDecimal);
+document.getElementById('btn-equals').addEventListener('click', btnEquals);
+</script>
+  <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

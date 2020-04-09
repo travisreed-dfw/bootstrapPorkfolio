@@ -1,0 +1,33 @@
+#btn {
+  background-color: coral;
+  height: 100px;
+  width: 100px;
+  border-radius: 25%;
+}
+
+/* .btn-class {
+  background-color: cornflowerblue;
+  height: 100px;
+  width: 100%;
+  border-radius: 25%;
+} */
+
+
+.btn {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border: 1px solid grey;
+  border-radius: 10%;
+  font-size: xx-large;
+}
+.col-calc {
+  height: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+.jumbo-max-width {
+  width: 500px;
+}
